@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Pinup - lightweight persistent pinned tabs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pinup - lightweight persistent pinned tabs. This extension guarantees that your pinned tabs are right where you've left them.",
   "author": "Dovydas Ceilutka",
   "permissions": ["bookmarks", "tabs", "storage"],
