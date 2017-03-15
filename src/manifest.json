@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Pinup - lightweight persistent pinned tabs",
+  "version": "0.0.1",
+  "description": "Pinup - lightweight persistent pinned tabs. This extension guarantees that your pinned tabs are right where you've left them.",
+  "author": "Dovydas Ceilutka",
+  "permissions": ["bookmarks", "tabs", "storage"],
+  "background": {
+    "scripts": ["./app.js"],
+    "persistent": false
+  },
+  "commands": {
+    "launch": {
+     "suggested_key": {
+       "default": "Ctrl+Shift+I",
+       "mac": "Command+Shift+I"
+     },
+     "description": "Launches pinned tabs"
+    }
+  },
+  "options_ui": {
+    "page": "options.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

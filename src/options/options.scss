@@ -1,0 +1,36 @@
+form {
+  margin: 1rem;
+  display: flex;
+}
+
+input {
+  flex: 1;
+  outline: none;
+  border-width: 0 0 1px 0;
+}
+
+input:focus {
+  border-color: #3f51b5;
+}
+
+button {
+  flex: 0 0 2rem;
+  outline: none;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  font-size: 1rem;
+}
+
+.folder-message {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.error {
+  color: #f44336;
+}
+
+.success {
+  color: #4caf50;
+}
